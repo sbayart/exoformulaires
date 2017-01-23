@@ -1,13 +1,52 @@
 * {box-sizing: border-box;
+    font-family: 'Garuda', cursive;
+    margin-right: auto;
 }
 
 h1 {
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #dddddd;
     font-style: italic;
+    font-size: 20px;
+
 }
 label {
-    width: 300px;
+    width: 150px;
+    display: inline-table;
+    float: left;
 }
 span {
      color: red;
+}
+input {
+    background-color: white;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+textarea {
+    background-color: white;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+
+button {
+
+    background: #ff8500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 150px;
+    padding: 5px;
+}
+select {
+
+   background-color: #dddddd;
+   border: 1px solid #c2c2c2;
+   border-radius: 5px;
+   margin: 5px 0;
+   width: 100px;
+   padding: 5px;
+
 }
