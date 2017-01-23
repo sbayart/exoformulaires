@@ -1,0 +1,49 @@
+* {box-sizing: border-box;
+    font-family: 'Garuda', cursive;
+}
+
+li {
+    list-style-type:none;
+}
+fieldset {
+    background-color: #fff4f4;
+    border: 1px solid #ffd2d2;
+    border-radius: 5px;
+    color: #f079ad;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px;
+}
+legend {
+    color: #ffc3da;
+    border: 1px solid #ffd2d2;
+    border-radius: 5px;
+    border-bottom: none;
+    background-color: #fff4f4;
+    padding: 10px;
+}
+label {
+    float: left;
+    width: 150px;
+    padding: 10px;
+}
+input, select, textarea {
+    background-color: #fff4f4;
+    border: 1px solid #ffd2d2;
+    border-radius: 5px;
+    margin: 10px;
+    width: 300px;
+    color: #f079ad;
+}
+select {
+    padding-left: 8px;
+}
+button {
+    background-color: #f079ad;
+    color: #fff4f4;
+    border: 1px solid #ffd2d2;
+    border-radius: 5px;
+    padding: 0 15px;
+    display: flex;
+    margin-left: 160px;
+}
