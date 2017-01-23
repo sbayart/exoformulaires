@@ -1,0 +1,13 @@
+* {box-sizing: border-box;
+}
+
+h1 {
+    border-bottom: 2px solid red;
+    font-style: italic;
+}
+label {
+    width: 300px;
+}
+span {
+     color: red;
+}

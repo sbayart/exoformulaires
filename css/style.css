@@ -1,29 +1,32 @@
+*{
+    box-sizing: border-box;
+        font-family: 'Garuda', cursive;
+        margin-left: 20px;
+}
 label {
-
     display: block;
     margin-top: 10px;
-
+    font-weight: bold;
 }
- span{
-
+span {
      color: red;
 }
-input{
-
+input {
   border: 1px solid #bebebe;
-  padding:10px;
-  margin-right:
-
-
+  padding:8px;
+  width: 250px;
+}
+select {
+    background-color: #dddddd;
+    padding: 8px;
+    border: 1px solid #bebebe;
 }
 .fixe {
-
-    width: : 500px;
-
+    width: 520px;
 }
 button {
-
-    background-color: rgb(55, 65, 156);
-    
-
-}
+    color:white;
+    background-color: #4b99ad;
+    display: block;
+    padding: 8px;
+    margin: 10px 0;
